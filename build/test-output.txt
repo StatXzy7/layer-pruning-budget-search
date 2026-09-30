@@ -1,0 +1,25 @@
+PASS budgetExactlyAtSchemeBoundaryIsAccepted
+  [chain dense] search=0.0, exhaustive=0.0, gap=0.0
+  [chain tight] search=0.3387892080274491, exhaustive=0.3387892080274491, gap=0.0
+PASS chainNetworkExhaustiveReferenceGap
+PASS concreteSelectionCompositionFailuresAreReported
+PASS duplicateCandidatesAreNotChargedTwice
+PASS equalErrorsResolveByStableLayerSequence
+PASS evaluationLimitIsStrictAndReturnsBestSoFar
+PASS fixedSeedReproducesSameEvaluationSequence
+  [joint] search error=0.0, exhaustive reference=0.0, gap=0.0
+PASS jointScoringBeatsSumOfLocalErrors
+PASS manualSingleLayerScoresTrueEndToEndError
+PASS noFeasibleSchemeIsReportedNotOptimality
+PASS rejectsBadCalibrationData
+PASS rejectsEmptyCandidateLayer
+PASS rejectsInvalidSearchArguments
+PASS rejectsNonComposableLayerDimensions
+PASS rejectsNonComposableResidualConfiguration
+PASS rejectsWrongDimensionsAndNonFiniteMatrices
+PASS residualAdditionExecutesPerConfiguration
+  [residual capped] search=0.3733911783841168, exhaustive=0.0, gap=0.3733911783841168 (heuristic, not claimed globally optimal)
+PASS residualNetworkExhaustiveReferenceGap
+PASS returnedSelectionAlwaysSatisfiesBudget
+
+tests: 19, passed: 19, failed: 0
